@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+telebot
+pyTelegramBotAPI
+openai
+python-dotenv
+httpx
+fastapi[test]
