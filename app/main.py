@@ -77,3 +77,8 @@ async def webhook_handler(token: str):
     update = telebot.types.Update.de_json(await app.state.reader.read())
     bot.process_new_updates([update])
     return "OK"
+
+
+
+
+
