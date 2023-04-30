@@ -1,38 +1,29 @@
-# Telegram Search Assistant
 
-A search assistance bot built with Telegram, FastAPI, and ChatGPT to handle natural language queries and generate responses.
+# Telegram Downloader Bot
+
+A Telegram bot for file downloading automation.
 
 ## Installation
 
-1. Clone the repository.
-2. Install the required packages: `pip install -r requirements.txt`.
-3. Create a `.env` file in the root directory with your Telegram and OpenAI API keys:
-
-4. Run the FastAPI server: `uvicorn app.main:app --host 0.0.0.0 --port 8000`.
+- Create a new Telegram bot (https://core.telegram.org/bots) and get its token.
+- Edit the `telegram-download-bot.py` file and fill in the `TELEGRAM_BOT_TOKEN` variable with your bot token.
+- Install the `python-telegram-bot` library using `pip install python-telegram-bot`.
+- Run the `telegram-download-bot.py` file.
 
 ## Usage
 
-Interact with the Telegram bot by sending natural language queries. The bot will generate responses using ChatGPT.
+- Talk to your new bot and share any file or photo post from a channel with it.
+- The bot will download the file or photo to the `downloads` folder in the same directory as the script.
+- You can also say "?" to the bot to check how many downloads are waiting in its queue.
+- You can say "quit" to stop the bot.
 
+## License
 
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-telegram_search_assistant/
-│
-├── app/
-│   ├── main.py
-│   ├── chatgpt.py
-│   └── utils.py
-│
-├── config/
-│   └── settings.py
-│
-├── tests/
-│   └── test_app.py
-│
-├── .env
-├── Procfile
-├── README.md
-└── requirements.txt
+I hope this example helps you create your own README.md file for your Telegram bot. Let me know if you have any questions or feedback.
 
-
-
+Source: Conversation with Bing, 4/30/2023
+(1) GitHub - alfem/telegram-downloader-bot: A Telegram bot for file .... https://github.com/alfem/telegram-downloader-bot.
+(2) telegram_file_manager_bot/README.md at main - Github. https://github.com/vahidbaghi/telegram_file_manager_bot/blob/main/README.md.
+(3) Telegram-bot-for-database/README.md at master - Github. https://github.com/Nuwyint/Telegram-bot-for-database/blob/master/README.md.
